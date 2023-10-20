@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auctioneers</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="css/tiny-slider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <nav >
+        <input id="nav-toggle" type="checkbox">
+        <div class="container">    <img src="img/Auctioneers_Logo-removebg-preview.png" alt=""  style="height: 220px; width: 220px;" >
+        </div>
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="antique.html">Asian Antique </a></li>
+            <li><a href="art.html">Art</a></li>
+            <li><a href="jewellery.html">Jewellery</a></li>
+            <li><a href="contact.html" class="contact">Contact us</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+
+    <!-- End Header/Navigation -->
+    <br><br>
+    
+    <div class="container-fluid "> 
+        <div id="carousel" class="carousel slide " data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/Brown Clean and Minimal Furniture Sale Banner.png"
+                alt="" class="img-fluid">
+            </div>
+            <div class="carousel-item ">
+              <img
+                src="img/Antique Art (1).png"
+                alt="" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/Red World Art Day (Banner (Landscape)).png"
+                alt="" class="img-fluid">
+            </div>
+            <div class="carousel-item ">
+              <img src="img/White Clean Jewelry Landscape Banner.png" alt=""
+                class="img-fluid">
+            </div>
+            
+            <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+   
+
+    <!-- Start Product Section -->
+    <div class="product-section">
+        <div class="container">
+            <div class="row gy-3">
+                <!-- Start Column 1 -->
+                <div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+                    <h2 class="mb-4 section-title">Crafted with excellent material.</h2>
+                    <p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+                        vulputate velit imperdiet dolor tempor tristique. </p>
+                    <p><a href="#" class="btn">Explore</a></p>
+                </div>
+                <!-- End Column 1 -->
+
+
+
+                <!-- Start Column 2 -->
+                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+                    <div class="product-item p-3 shadow-lg h-100" href="">
+                        <img src="img/Chair_1.webp" style="height: 290px; width: 400px;"
+                            class="img-fluid product-thumbnail">
+                        <h3 class="product-title">Walter Cave , 1863-1939 Rare Arts & Crafts, Ca. 1899, Carved Oak</h3>
+                        <strong class="product-price">$50.00</strong>
+                        <button data-bs-target="#modal1" data-bs-toggle="modal" class="btn btn-dark ms-2">Explore!</button>
+                    </div>
+                </div>
+
+
+
+                <div class="modal" id="modal1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Chair_1.webp" style="height: 100px; width: 150px;" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem excepturi, nesciunt facere odit, esse cum natus cumque obcaecati at delectus qui dignissimos pariatur minima dolorum quos distinctio! Quisquam, deserunt?</p>
+                                <form action="https://formsubmit.co/hamzashahid200927@gmail.com" method="post" class="was-validated row gy-4">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" required placeholder="First Name" name="name">
+                                    </div>
+                                    <div class="col-6 text-light">
+                                        <input type="text" class="form-control" required placeholder="Last Name" name="name">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="email" class="form-control" required placeholder="Email" name="email">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="text" class="form-control" required placeholder="Message" name="message">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="number" class="form-control" required placeholder="Your Bid" name="Bid">
+                                    </div>
+                                    <button class="btn btn-light rounded-pill" style="width: 250px;" type="submit">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal2">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Chair_2.webp" style="height: 100px; width: 150px;" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem excepturi, nesciunt facere odit, esse cum natus cumque obcaecati at delectus qui dignissimos pariatur minima dolorum quos distinctio! Quisquam, deserunt?</p>
+                                <form action="https://formsubmit.co/hamzashahid200927@gmail.com" method="post" class="was-validated row gy-4">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" required placeholder="First Name" name="name">
+                                    </div>
+                                    <div class="col-6 text-light">
+                                        <input type="text" class="form-control" required placeholder="Last Name" name="name">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="email" class="form-control" required placeholder="Email" name="email">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="text" class="form-control" required placeholder="Message" name="message">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="number" class="form-control" required placeholder="Your Bid" name="Bid">
+                                    </div>
+                                    <button class="btn btn-light rounded-pill" style="width: 250px;" type="submit">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal3">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Chair_3.webp" style="height: 100px; width: 150px;" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem excepturi, nesciunt facere odit, esse cum natus cumque obcaecati at delectus qui dignissimos pariatur minima dolorum quos distinctio! Quisquam, deserunt?</p>
+                                <form action="https://formsubmit.co/hamzashahid200927@gmail.com" method="post" class="was-validated row gy-4">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" required placeholder="First Name" name="name">
+                                    </div>
+                                    <div class="col-6 text-light">
+                                        <input type="text" class="form-control" required placeholder="Last Name" name="name">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="email" class="form-control" required placeholder="Email" name="email">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="text" class="form-control" required placeholder="Message" name="message">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="number" class="form-control" required placeholder="Your Bid" name="Bid">
+                                    </div>
+                                    <button class="btn btn-light rounded-pill" style="width: 250px;" type="submit">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal4">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Chair_4.webp" style="height: 100px; width: 150px;" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem excepturi, nesciunt facere odit, esse cum natus cumque obcaecati at delectus qui dignissimos pariatur minima dolorum quos distinctio! Quisquam, deserunt?</p>
+                                <form action="https://formsubmit.co/hamzashahid200927@gmail.com" method="post" class="was-validated row gy-4">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" required placeholder="First Name" name="name">
+                                    </div>
+                                    <div class="col-6 text-light">
+                                        <input type="text" class="form-control" required placeholder="Last Name" name="name">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="email" class="form-control" required placeholder="Email" name="email">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="text" class="form-control" required placeholder="Message" name="message">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="number" class="form-control" required placeholder="Your Bid" name="Bid">
+                                    </div>
+                                    <button class="btn btn-light rounded-pill" style="width: 250px;" type="submit">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal5">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Chair_5.webp" style="height: 100px; width: 150px;" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem excepturi, nesciunt facere odit, esse cum natus cumque obcaecati at delectus qui dignissimos pariatur minima dolorum quos distinctio! Quisquam, deserunt?</p>
+                                <form action="https://formsubmit.co/hamzashahid200927@gmail.com" method="post" class="was-validated row gy-4">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" required placeholder="First Name" name="name">
+                                    </div>
+                                    <div class="col-6 text-light">
+                                        <input type="text" class="form-control" required placeholder="Last Name" name="name">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="email" class="form-control" required placeholder="Email" name="email">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="text" class="form-control" required placeholder="Message" name="message">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="number" class="form-control" required placeholder="Your Bid" name="Bid">
+                                    </div>
+                                    <button class="btn btn-light rounded-pill" style="width: 250px;" type="submit">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal6">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Chair_6.webp" style="height: 100px; width: 150px;" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem excepturi, nesciunt facere odit, esse cum natus cumque obcaecati at delectus qui dignissimos pariatur minima dolorum quos distinctio! Quisquam, deserunt?</p>
+                                <form action="https://formsubmit.co/hamzashahid200927@gmail.com" method="post" class="was-validated row gy-4">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" required placeholder="First Name" name="name">
+                                    </div>
+                                    <div class="col-6 text-light">
+                                        <input type="text" class="form-control" required placeholder="Last Name" name="name">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="email" class="form-control" required placeholder="Email" name="email">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="text" class="form-control" required placeholder="Message" name="message">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="number" class="form-control" required placeholder="Your Bid" name="Bid">
+                                    </div>
+                                    <button class="btn btn-light rounded-pill" style="width: 250px;" type="submit">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal7">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Chair_7.webp" style="height: 100px; width: 150px;" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem excepturi, nesciunt facere odit, esse cum natus cumque obcaecati at delectus qui dignissimos pariatur minima dolorum quos distinctio! Quisquam, deserunt?</p>
+                                <form action="https://formsubmit.co/hamzashahid200927@gmail.com" method="post" class="was-validated row gy-4">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" required placeholder="First Name" name="name">
+                                    </div>
+                                    <div class="col-6 text-light">
+                                        <input type="text" class="form-control" required placeholder="Last Name" name="name">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="email" class="form-control" required placeholder="Email" name="email">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="text" class="form-control" required placeholder="Message" name="message">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="number" class="form-control" required placeholder="Your Bid" name="Bid">
+                                    </div>
+                                    <button class="btn btn-light rounded-pill" style="width: 250px;" type="submit">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal8">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Chair_8.webp" style="height: 100px; width: 150px;" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem excepturi, nesciunt facere odit, esse cum natus cumque obcaecati at delectus qui dignissimos pariatur minima dolorum quos distinctio! Quisquam, deserunt?</p>
+                                <form action="https://formsubmit.co/hamzashahid200927@gmail.com" method="post" class="was-validated row gy-4">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" required placeholder="First Name" name="name">
+                                    </div>
+                                    <div class="col-6 text-light">
+                                        <input type="text" class="form-control" required placeholder="Last Name" name="name">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="email" class="form-control" required placeholder="Email" name="email">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="text" class="form-control" required placeholder="Message" name="message">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="number" class="form-control" required placeholder="Your Bid" name="Bid">
+                                    </div>
+                                    <button class="btn btn-light rounded-pill" style="width: 250px;" type="submit">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal9">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Chair_9.webp" style="height: 100px; width: 150px;" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem excepturi, nesciunt facere odit, esse cum natus cumque obcaecati at delectus qui dignissimos pariatur minima dolorum quos distinctio! Quisquam, deserunt?</p>
+                                <form action="https://formsubmit.co/hamzashahid200927@gmail.com" method="post" class="was-validated row gy-4">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" required placeholder="First Name" name="name">
+                                    </div>
+                                    <div class="col-6 text-light">
+                                        <input type="text" class="form-control" required placeholder="Last Name" name="name">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="email" class="form-control" required placeholder="Email" name="email">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="text" class="form-control" required placeholder="Message" name="message">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="number" class="form-control" required placeholder="Your Bid" name="Bid">
+                                    </div>
+                                    <button class="btn btn-light rounded-pill" style="width: 250px;" type="submit">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal10">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Chair_10.webp" style="height: 100px; width: 150px;" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem excepturi, nesciunt facere odit, esse cum natus cumque obcaecati at delectus qui dignissimos pariatur minima dolorum quos distinctio! Quisquam, deserunt?</p>
+                                <form action="https://formsubmit.co/hamzashahid200927@gmail.com" method="post" class="was-validated row gy-4">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" required placeholder="First Name" name="name">
+                                    </div>
+                                    <div class="col-6 text-light">
+                                        <input type="text" class="form-control" required placeholder="Last Name" name="name">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="email" class="form-control" required placeholder="Email" name="email">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="text" class="form-control" required placeholder="Message" name="message">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="number" class="form-control" required placeholder="Your Bid" name="Bid">
+                                    </div>
+                                    <button class="btn btn-light rounded-pill" style="width: 250px;" type="submit">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modal11">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Chair_11.webp" style="height: 100px; width: 150px;" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem excepturi, nesciunt facere odit, esse cum natus cumque obcaecati at delectus qui dignissimos pariatur minima dolorum quos distinctio! Quisquam, deserunt?</p>
+                                <form action="https://formsubmit.co/hamzashahid200927@gmail.com" method="post" class="was-validated row gy-4">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" required placeholder="First Name" name="name">
+                                    </div>
+                                    <div class="col-6 text-light">
+                                        <input type="text" class="form-control" required placeholder="Last Name" name="name">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="email" class="form-control" required placeholder="Email" name="email">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="text" class="form-control" required placeholder="Message" name="message">
+                                    </div>
+                                    <div class="col-12 text-light">
+                                        <input type="number" class="form-control" required placeholder="Your Bid" name="Bid">
+                                    </div>
+                                    <button class="btn btn-light rounded-pill" style="width: 250px;" type="submit">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Column 2 -->
+
+
+
+                <!-- Start Column 3 -->
+                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+                   <div class="product-item shadow-lg h-100">
+                        <img src="img/Chair_2.webp" style="height: 290px; width: 400px;" class="img-fluid product-thumbnail">
+                        <h3 class="product-title">Pair of Huanghuali Chinese Horseshoe Back Chairs</h3>
+                        <strong class="product-price">$78.00</strong>
+                        <button data-bs-target="#modal2" data-bs-toggle="modal" class="btn btn-dark ms-2">Explore!</button>
+                    </div>
+                </div>
+                <!-- End Column 3 -->
+
+                <!-- Start Column 4 -->
+                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+                   <div class="product-item shadow-lg h-100">
+                        <img src="img/Chair_3.webp" style="height: 290px; width: 400px;" class="img-fluid product-thumbnail">
+                        <h3 class="product-title">Restored 1938 K.E.M. Weber The Airline Chair for Walt Disney, Pair
+                        </h3>
+                        <strong class="product-price">$43.00</strong>
+                        <button data-bs-target="#modal3" data-bs-toggle="modal" class="btn btn-dark ms-2">Explore!</button>
+                    </div>
+                </div>
+
+                <!-- End Column 4 -->
+                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+                    <div class="product-item shadow-lg h-100">
+                        <img src="img/Chair_4.webp" style="height: 290px; width: 400px" class="img-fluid product-thumbnail">
+                        <h3 class="product-title">Gianfranco Frattini for Cassina 780 Tables, 4</h3>
+                        <strong class="product-price">$43.00</strong>
+                        <button data-bs-target="#modal4" data-bs-toggle="modal" class="btn btn-dark ms-2">Explore!</button>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+                    <div class="product-item shadow-lg h-100">
+                        <img src="img/Chair_5.webp" style="height: 290px; width: 400px"
+                            class="img-fluid product-thumbnail">
+                        <h3 class="product-title">Antique American Empire Style Tufted Back Settee Newly Reupholstered
+                        </h3>
+                        <strong class="product-price">$43.00</strong>
+                        <button data-bs-target="#modal5" data-bs-toggle="modal" class="btn btn-dark ms-2">Explore!</button>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+                    <div class="product-item shadow-lg h-100">
+                        <img src="img/Chair_6.webp " style="height: 290px; width: 400px" class="img-fluid product-thumbnail">
+                    <h3 class="product-title">BRITISH COLONIAL STYLE INLAID TWO-DOOR ARMOIRE</h3>
+                        <strong class="product-price">$43.00</strong>
+                        <button data-bs-target="#modal6" data-bs-toggle="modal" class="btn btn-dark ms-2">Explore!</button>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+                   <div class="product-item shadow-lg h-100">
+                        <img src="img/Chair_7.webp" style="height: 290px; width: 400px"
+                            class="img-fluid product-thumbnail">
+                        <h3 class="product-title">19th Cent. Italian Breakdown Armoire</h3>
+                        <strong class="product-price">$43.00</strong>
+                        <button data-bs-target="#modal7" data-bs-toggle="modal" class="btn btn-dark ms-2">Explore!</button>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+                    <div class="product-item shadow-lg h-100">
+                        <img src="img/Chair_8.webp" style="height: 290px; width: 400px"
+                            class="img-fluid product-thumbnail">
+                        <h3 class="product-title">Antique Mahogany 2 Door Apothecary Cabinet. Handmade.</h3>
+                        <strong class="product-price">$43.00</strong>
+                        <button data-bs-target="#modal8" data-bs-toggle="modal" class="btn btn-dark ms-2">Explore!</button>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+                   <div class="product-item shadow-lg h-100">
+                        <img src="img/Chair_9.webp" style="height: 290px; width: 400px"
+                            class="img-fluid product-thumbnail">
+                        <h3 class="product-title">13 Drawer Hanging Apothecary/Spice Chest</h3>
+                        <strong class="product-price">$43.00</strong>
+                        <button data-bs-target="#modal9" data-bs-toggle="modal" class="btn btn-dark ms-2">Explore!</button>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+                 <div class="product-item shadow-lg h-100">
+                       <img src="img/Chair_10.webp" style="height: 290px; width: 400px"
+                            class="img-fluid product-thumbnail">
+                        <h3 class="product-title">An Oak Three-Drawer Apothecary Cabinet with Specimen Tins
+                        </h3>
+                        <strong class="product-price">$43.00</strong>
+                        <button data-bs-target="#modal10" data-bs-toggle="modal" class="btn btn-dark ms-2">Explore!</button>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+                   <div class="product-item shadow-lg h-100">
+                        <img src="img/Chair_11.webp" style="height: 290px; width: 400px"
+                            class="img-fluid product-thumbnail">
+                        <h3 class="product-title">Rustic General Store Apothecary Cabinet</h3>
+                        <strong class="product-price">$43.00</strong>
+                        <button data-bs-target="#modal11" data-bs-toggle="modal" class="btn btn-dark ms-2">Explore!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Product Section -->
+
+    <!-- Start Why Choose Us Section -->
+    <div class="why-choose-section bg-light">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-12">
+                    <h2 class="section-title text-center mt-5">Why Choose Us</h2>
+                    <p class="w-50 mx-auto ">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit
+                        imperdiet dolor tempor tristique.</p>
+                </div>
+            
+                <div class="col-lg-6">
+                    <div class="row my-5">
+                        <div class="col-6 col-md-6">
+                            <div class="feature shadow-lg p-3 h-100">
+                                <div class="icon">
+                                    <img src="img/truck.svg" alt="Image"
+                                        class="imf-fluid">
+                                </div>
+                                <h3>Fast &amp; Free Shipping</h3>
+                                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+                                    vulputate.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-6">
+                            <div class="feature shadow-lg p-3 h-100">
+                                <div class="icon">
+                                    <img src="img/bag_img.svg" alt="Image"
+                                        class="imf-fluid">
+                                </div>
+                                <h3>Easy to Shop</h3>
+                                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+                                    vulputate.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-6">
+                            <div class="feature shadow-lg p-3 h-100">
+                                <div class="icon">
+                                    <img src="img/support_img.svg" alt="Image"
+                                        class="imf-fluid">
+                                </div>
+                                <h3>24/7 Support</h3>
+                                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+                                    vulputate.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-6">
+                            <div class="feature shadow-lg p-3 h-100">
+                                <div class="icon">
+                                    <img src="img/return_img.svg" alt="Image"
+                                        class="imf-fluid">
+                                </div>
+                                <h3>Hassle Free Returns</h3>
+                                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+                                    vulputate.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 pt-5">
+                    <div class="img-wrap">
+                        <img src="img/Extraimg.webp"
+                            alt="Image" height="500px" width="100%">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- End Why Choose Us Section -->
+    <!-- Start Footer Section -->
+    <footer class="footer-section" style="color: white;background-color: black;">
+        <div class="container relative">
+     
+
+            <div class="row g-5 mb-5">
+                <div class="col-lg-4">
+                    <div class="mb-4 footer-logo-wrap"><a href="index.html" class="footer-logo" style="color: white;">Auctioneers<span>.</span></a></div>
+                    <p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus
+                        malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+                        Pellentesque habitant</p>
+
+                    <ul class="list-unstyled custom-social">
+                        <li><a href="#"><span class="fa fa-brands fa-facebook-f text-dark"></span></a></li>
+                        <li><a href="#"><span class="fa fa-brands fa-twitter text-dark"></span></a></li>
+                        <li><a href="#"><span class="fa fa-brands fa-instagram text-dark"></span></a></li>
+                        <li><a href="#"><span class="fa fa-brands fa-linkedin text-dark"></span></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row links-wrap">
+                        <div class="col-6 col-sm-6 col-md-3">
+                            <ul class="list-unstyled">
+                                <li><a href="antique.html" style="color: white;">Asian Antiques</a></li>
+                                <li><a href="art.html" style="color: white;">Art</a></li>
+                                <li><a href="index.html" style="color: white;">Furniture</a></li>
+                                <li><a href="contact.html" style="color: white;">Contact us</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-3">
+                            <ul class="list-unstyled">
+                                <li><a href="#" style="color: white;">Support</a></li>
+                                <li><a href="#" style="color: white;">Knowledge base</a></li>
+                                <li><a href="#" style="color: white;">Live chat</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-3">
+                            <ul class="list-unstyled">
+                                <li><a href="#" style="color: white;">Jobs</a></li>
+                                <li><a href="#" style="color: white;">Our team</a></li>
+                                <li><a href="#" style="color: white;">Leadership</a></li>
+                                <li><a href="#" style="color: white;">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-3">
+                            <ul class="list-unstyled">
+                                <li><a href="#" style="color: white;">Nordic Chair</a></li>
+                                <li><a href="#" style="color: white;">Kruzo Aero</a></li>
+                                <li><a href="#" style="color: white;">Ergonomic Chair</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+</body>
+
+</html>
